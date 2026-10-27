@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+.env.local
+*.env.local
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+build/
+
+# Logs & editor files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
